@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035F2C192A5C61F900BF59C0 /* MoisturizerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */; };
 		03BCEB952A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */; };
 		03BCEB972A549E8A00AD1AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BCEB962A549E8A00AD1AF3 /* ContentView.swift */; };
 		03BCEB992A549E9100AD1AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BCEB982A549E9100AD1AF3 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoisturizerInfo.swift; sourceTree = "<group>"; };
 		03BCEB912A549E8A00AD1AF3 /* Estee Lauder Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estee Lauder Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_Lauder_ChallengeApp.swift; sourceTree = "<group>"; };
 		03BCEB962A549E8A00AD1AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */,
 				03BCEB962A549E8A00AD1AF3 /* ContentView.swift */,
+				035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */,
 				03BCEBA22A549EC500AD1AF3 /* quiz.swift */,
 				03BCEB982A549E9100AD1AF3 /* Assets.xcassets */,
 				03BCEB9A2A549E9100AD1AF3 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BCEB972A549E8A00AD1AF3 /* ContentView.swift in Sources */,
+				035F2C192A5C61F900BF59C0 /* MoisturizerInfo.swift in Sources */,
 				03BCEB952A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift in Sources */,
 				03BCEBA32A549EC500AD1AF3 /* quiz.swift in Sources */,
 			);
