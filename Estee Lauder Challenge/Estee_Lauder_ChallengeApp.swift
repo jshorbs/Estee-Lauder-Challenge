@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
+
 struct Estee_Lauder_ChallengeApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+           
         }
+        
     }
+    
 }

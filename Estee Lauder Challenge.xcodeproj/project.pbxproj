@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		035F2C192A5C61F900BF59C0 /* MoisturizerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */; };
+		03B148E62A60D2CB000FC48A /* MoisturizerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B148E52A60D2CA000FC48A /* MoisturizerInfo.swift */; };
+		03B148FC2A60D796000FC48A /* OptimaDisplay-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F42A60D796000FC48A /* OptimaDisplay-Roman.ttf */; };
+		03B148FD2A60D796000FC48A /* AkzidenzGroteskBQ-Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F52A60D796000FC48A /* AkzidenzGroteskBQ-Reg.ttf */; };
+		03B148FE2A60D796000FC48A /* OptimaDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F62A60D796000FC48A /* OptimaDisplay-Light.ttf */; };
+		03B148FF2A60D796000FC48A /* OptimaDisplay-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F72A60D796000FC48A /* OptimaDisplay-Book.ttf */; };
+		03B149002A60D796000FC48A /* OptimaDisplay-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F82A60D796000FC48A /* OptimaDisplay-UltraLight.ttf */; };
+		03B149012A60D796000FC48A /* OptimaEL-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148F92A60D796000FC48A /* OptimaEL-Text.ttf */; };
+		03B149022A60D796000FC48A /* OptimaEL-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148FA2A60D796000FC48A /* OptimaEL-Roman.ttf */; };
+		03B149032A60D796000FC48A /* AkzidenzGroteskBQ-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03B148FB2A60D796000FC48A /* AkzidenzGroteskBQ-Bold.ttf */; };
 		03BCEB952A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */; };
 		03BCEB972A549E8A00AD1AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BCEB962A549E8A00AD1AF3 /* ContentView.swift */; };
 		03BCEB992A549E9100AD1AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BCEB982A549E9100AD1AF3 /* Assets.xcassets */; };
@@ -16,7 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoisturizerInfo.swift; sourceTree = "<group>"; };
+		03B148E52A60D2CA000FC48A /* MoisturizerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoisturizerInfo.swift; path = ../../../Desktop/MoisturizerInfo.swift; sourceTree = "<group>"; };
+		03B148F42A60D796000FC48A /* OptimaDisplay-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Roman.ttf"; sourceTree = "<group>"; };
+		03B148F52A60D796000FC48A /* AkzidenzGroteskBQ-Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Reg.ttf"; sourceTree = "<group>"; };
+		03B148F62A60D796000FC48A /* OptimaDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Light.ttf"; sourceTree = "<group>"; };
+		03B148F72A60D796000FC48A /* OptimaDisplay-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-Book.ttf"; sourceTree = "<group>"; };
+		03B148F82A60D796000FC48A /* OptimaDisplay-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaDisplay-UltraLight.ttf"; sourceTree = "<group>"; };
+		03B148F92A60D796000FC48A /* OptimaEL-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Text.ttf"; sourceTree = "<group>"; };
+		03B148FA2A60D796000FC48A /* OptimaEL-Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OptimaEL-Roman.ttf"; sourceTree = "<group>"; };
+		03B148FB2A60D796000FC48A /* AkzidenzGroteskBQ-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.ttf"; sourceTree = "<group>"; };
 		03BCEB912A549E8A00AD1AF3 /* Estee Lauder Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estee Lauder Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_Lauder_ChallengeApp.swift; sourceTree = "<group>"; };
 		03BCEB962A549E8A00AD1AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03B148F32A60D796000FC48A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				03B148F42A60D796000FC48A /* OptimaDisplay-Roman.ttf */,
+				03B148F52A60D796000FC48A /* AkzidenzGroteskBQ-Reg.ttf */,
+				03B148F62A60D796000FC48A /* OptimaDisplay-Light.ttf */,
+				03B148F72A60D796000FC48A /* OptimaDisplay-Book.ttf */,
+				03B148F82A60D796000FC48A /* OptimaDisplay-UltraLight.ttf */,
+				03B148F92A60D796000FC48A /* OptimaEL-Text.ttf */,
+				03B148FA2A60D796000FC48A /* OptimaEL-Roman.ttf */,
+				03B148FB2A60D796000FC48A /* AkzidenzGroteskBQ-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		03BCEB882A549E8900AD1AF3 = {
 			isa = PBXGroup;
 			children = (
@@ -43,6 +74,7 @@
 				03BCEB922A549E8A00AD1AF3 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		03BCEB922A549E8A00AD1AF3 /* Products */ = {
 			isa = PBXGroup;
@@ -55,9 +87,10 @@
 		03BCEB932A549E8A00AD1AF3 /* Estee Lauder Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				03B148F32A60D796000FC48A /* Fonts */,
 				03BCEB942A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift */,
 				03BCEB962A549E8A00AD1AF3 /* ContentView.swift */,
-				035F2C182A5C61F900BF59C0 /* MoisturizerInfo.swift */,
+				03B148E52A60D2CA000FC48A /* MoisturizerInfo.swift */,
 				03BCEBA22A549EC500AD1AF3 /* quiz.swift */,
 				03BCEB982A549E9100AD1AF3 /* Assets.xcassets */,
 				03BCEB9A2A549E9100AD1AF3 /* Preview Content */,
@@ -131,8 +164,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B149002A60D796000FC48A /* OptimaDisplay-UltraLight.ttf in Resources */,
+				03B148FF2A60D796000FC48A /* OptimaDisplay-Book.ttf in Resources */,
+				03B149012A60D796000FC48A /* OptimaEL-Text.ttf in Resources */,
+				03B149022A60D796000FC48A /* OptimaEL-Roman.ttf in Resources */,
+				03B149032A60D796000FC48A /* AkzidenzGroteskBQ-Bold.ttf in Resources */,
+				03B148FE2A60D796000FC48A /* OptimaDisplay-Light.ttf in Resources */,
 				03BCEB9C2A549E9100AD1AF3 /* Preview Assets.xcassets in Resources */,
 				03BCEB992A549E9100AD1AF3 /* Assets.xcassets in Resources */,
+				03B148FD2A60D796000FC48A /* AkzidenzGroteskBQ-Reg.ttf in Resources */,
+				03B148FC2A60D796000FC48A /* OptimaDisplay-Roman.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BCEB972A549E8A00AD1AF3 /* ContentView.swift in Sources */,
-				035F2C192A5C61F900BF59C0 /* MoisturizerInfo.swift in Sources */,
 				03BCEB952A549E8A00AD1AF3 /* Estee_Lauder_ChallengeApp.swift in Sources */,
+				03B148E62A60D2CB000FC48A /* MoisturizerInfo.swift in Sources */,
 				03BCEBA32A549EC500AD1AF3 /* quiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +318,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder Challenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Challenge-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
