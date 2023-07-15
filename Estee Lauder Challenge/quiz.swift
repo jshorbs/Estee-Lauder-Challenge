@@ -15,7 +15,7 @@ struct quiz: View {
         ZStack{
             RoundedRectangle(cornerRadius:0)
                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
-                .frame(width:400,height:900)
+                .frame(width:400,height:950)
             
             if QuestionNum==0{
                 VStack{
@@ -26,7 +26,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Lets go")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -44,7 +44,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("glow")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -57,7 +57,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Cleanse")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -70,7 +70,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Hydrate")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -96,7 +96,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Dullness")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -109,7 +109,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Irritation")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -122,7 +122,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Large Pores")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -137,12 +137,11 @@ struct quiz: View {
                         .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                     Button{
                         foamCleanser+=1
-                        treatmentLotion+=1
                         QuestionNum=4
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Morning Bird")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -154,7 +153,7 @@ struct quiz: View {
                     }label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
-                                .frame(width:70,height:40)
+                                .frame(width:150,height:40)
                                 .foregroundColor(Color(red: 0.937, green: 0.9137254901960784, blue: 0.9411764705882353))
                             Text("Night owl")
                                 .foregroundColor(Color(red: 0.8196078431372549, green: 0.0784313725490196, blue: 0.2549019607843137))
@@ -166,13 +165,13 @@ struct quiz: View {
             }
             else if QuestionNum==4{
                 if (maskMoisturizer>foamCleanser && maskMoisturizer>treatmentLotion){
-                    Text("The mask moisturizer is perfect")
+                    FaceMaskInfo()
                 }
                 else if (foamCleanser>maskMoisturizer && foamCleanser>treatmentLotion){
-                    Text("the foam cleanser is perfect")
+                    CleanserInfo()
                 }
                 else if(treatmentLotion>maskMoisturizer && treatmentLotion>foamCleanser){
-                    Text("the treatment lotion is perfect")
+                    MoisturizerInfo()
                 }
                 else if(treatmentLotion==foamCleanser){
                     Text("its a tie between the treetment lotion and the foam cleanser!")
